@@ -9,7 +9,7 @@ const Edit = () => {
         <span className="add-post">Edit Stock {id} </span>
         </div>
 
-        <div className="main-form">
+        <div className="main-forms">
             <form >
         
                 <input 

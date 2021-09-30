@@ -56,6 +56,28 @@
   flex-direction: column;
   align-items: center;
 }
+.main-forms{
+  border-radius: 18px;
+  margin-top: 50px;
+  margin-left: 623px;
+  background-color:#89b1df;
+  width: 290px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.main-forms input{
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  font-size: 17px;
+  margin-top: 30px;
+  padding-left: 20px;
+  color: rgb(130, 170, 196);
+  height: 30px;
+}
 .main-form input{
   border: none;
   outline: none;
@@ -208,7 +230,26 @@
     font-size: 24px;
   }
   .main-form{
-    margin-left: 33px;
+    margin-left: 79px;
+    width: 200px;
+    height: 320px;
+  }
+  .main-form input{
+    font-size: 12px;
+    margin-left: 21px;
+  }
+  .main-forms{
+    margin-left: 79px;
+    width: 200px;
+    height: 350px;
+  }
+  .main-forms input{
+    font-size: 12px;
+    margin-left: 10px;
+  }
+  .btns{
+    width: 200px;
+    margin-left: 0px;
   }
   .main-stock{
     font-size: 19px;
@@ -238,6 +279,12 @@
     margin-top: 10px;
     padding-right: 10px;
     font-size: 8px;
+  }
+  .btn-4{
+    font-size: 12px;
+  }
+  .btn-5{
+    font-size: 12px;
   }
 
 }
