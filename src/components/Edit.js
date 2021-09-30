@@ -10,6 +10,7 @@ const Edit = () => {
         </div>
 
         <div className="main-forms">
+        
             <form >
         
                 <input 

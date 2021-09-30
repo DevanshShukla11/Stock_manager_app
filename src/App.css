@@ -47,9 +47,9 @@
 .main-form{
   border-radius: 18px;
   margin-top: 50px;
-  margin-left: 623px;
-  background-color:#89b1df;
-  width: 290px;
+  /* margin-left: 623px; */
+  background-color:#f5f5f5;
+  width: auto;
   height: 400px;
   display: flex;
   justify-content: center;
@@ -59,9 +59,8 @@
 .main-forms{
   border-radius: 18px;
   margin-top: 50px;
-  margin-left: 623px;
-  background-color:#89b1df;
-  width: 290px;
+  background-color:#f5f5f5;
+  width: auto;
   height: 400px;
   display: flex;
   justify-content: center;
@@ -229,19 +228,9 @@
   .add-post{
     font-size: 24px;
   }
-  .main-form{
-    margin-left: 84px;
-    width: 220px;
-    height: 350px;
-  }
   .main-form input{
     font-size: 12px;
     margin-left: 10px;
-  }
-  .main-forms{
-    margin-left: 82px;
-    width: 220px;
-    height: 350px;
   }
   .main-forms input{
     font-size: 12px;
