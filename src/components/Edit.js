@@ -31,12 +31,12 @@ const Edit = () => {
                 <br/>
                 <br/>
                 <Link to="/"
-                 className="btn-2" 
+                 className="btn-4" 
                  type="submit">Update value
                 </Link>
                 &emsp;
                 <Link to="/"
-                 className="btn-3" 
+                 className="btn-5" 
                  type="submit">Cancel
                 </Link>
             </form>

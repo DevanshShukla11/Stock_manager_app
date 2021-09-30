@@ -13,34 +13,34 @@ const Stockdata = () => {
 
     return (
         <>
-        <h1>welcome to stock data page</h1>
+        <span  className= "main-stock">welcome to stock data page</span>
         <div className="main-table">
         <table class="table">
-  <thead>
+  <thead className="heading">
     <tr>
-      <th className="table-secondary" scope="col">Id</th>
-      <th className="table-secondary" scope="col">Stock Name</th>
-      <th className="table-secondary" scope="col">Stock Price ( buy )</th>
-      <th className="table-secondary" scope="col">Stock Price ( current )</th>
-      <th className="table-secondary" scope="col">Sign</th>
-      <th className="table-secondary" scope="col">Actions</th>
+      <th className="table-primary" scope="col">Id</th>
+      <th className="table-primary" scope="col">StockName</th>
+      <th className="table-primary" scope="col">StockPrice (buy)</th>
+      <th className="table-primary" scope="col">StockPrice (current)</th>
+      <th className="table-primary" scope="col">Sign</th>
+      <th className="table-primary" scope="col">Actions</th>
     </tr>
   </thead>
   <tbody>
   {
    dataStock.map((dataStock , id )=> (
        <tr>
-           <td>{id+1}</td>
-           <td>{dataStock.stockName}</td>
-           <td>{dataStock.stockPricebuy}</td>
-           <td>{dataStock.stockPricecurrent}</td>
-           <td>{dataStock.sign}</td> 
-           <td>
+           <td className="table-dark">{id+1}</td>
+           <td  className="table-dark">{dataStock.stockName}</td>
+           <td  className="table-dark">{dataStock.stockPricebuy}</td>
+           <td  className="table-dark">{dataStock.stockPricecurrent}</td>
+           <td  className="table-dark">{dataStock.sign}</td> 
+           <td  className="table-dark">
                <Link to = {`/edit/${dataStock.id}`}
-               className="btn btn-small btn-primary mr-2">Edit</Link>
+               className="btn-2">Edit</Link>
                &emsp;
-                <button type="button" to = {`/edit/${dataStock.id}`}
-               className="btn btn-small btn-danger mr-2">Delete</button>
+                <button type="button" 
+               className="btn-3">Delete</button>
            </td>
        </tr>
 

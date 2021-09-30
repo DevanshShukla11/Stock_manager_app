@@ -6,9 +6,9 @@ const Home = () => {
     return (
         <>
         <div className="main-home">
-        <span className="intro">Welcome to my application Contact book  </span>
+        <span className="intro">Welcome to my application Stock Manager </span>
         &emsp;
-        <Link className="btn btn-small btn-success pl-2" to ="/add">Add Stock</Link>
+        <Link className="btn btn-sm btn-success pl-2" to ="/add">Add Stock</Link>
         </div>
         </>
     )

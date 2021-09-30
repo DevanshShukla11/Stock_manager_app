@@ -6,10 +6,11 @@ const Navbar = () => {
         <>
         <div className="main-navs">
 
-            <Link to ="/"> Home <Link/>
-            <Link to ="/contact"> Add Stock 
-            </Link>
-            </Link>
+            <Link to ="/"> Home <Link/></Link>
+            <Link to ="/contact"> Add Stock </Link>
+            <Link to ="/edit/:id"> Edit Stocks <Link/></Link>
+            <Link to ="/stock-data"> Stock Data </Link>
+          
             </div>
         
 
