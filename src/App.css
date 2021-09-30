@@ -230,25 +230,25 @@
     font-size: 24px;
   }
   .main-form{
-    margin-left: 54px;
-    width: 250px;
+    margin-left: 84px;
+    width: 200px;
     height: 350px;
   }
   .main-form input{
     font-size: 12px;
-    margin-left: 19px;
+    margin-left: 10px;
   }
   .main-forms{
-    margin-left: 55px;
-    width: 250px;
+    margin-left: 82px;
+    width: 200px;
     height: 350px;
   }
   .main-forms input{
     font-size: 12px;
-    margin-left: 10px;
+    margin-left: 6px;
   }
   .btns{
-    width: 200px;
+    width: 180px;
     margin-left: 0px;
   }
   .main-stock{
